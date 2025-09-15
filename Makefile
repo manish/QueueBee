@@ -11,7 +11,7 @@ BUILD_DIR = build
 BIN_DIR = $(BUILD_DIR)/bin
 
 # Source files
-SOURCES = $(SRC_DIR)/main.cpp
+SOURCES = $(SRC_DIR)/main.cpp $(SRC_DIR)/server.cpp
 OBJECTS = $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SOURCES))
 TARGET = $(BIN_DIR)/queuebee
 
