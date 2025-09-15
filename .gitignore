@@ -1,5 +1,6 @@
 # Build directories
 build/
+cmake-build/
 cmake-build-*/
 out/
 
@@ -47,7 +48,7 @@ out/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
+# Makefile - only ignore CMake-generated ones in build directories
 compile_commands.json
 
 # Documentation
