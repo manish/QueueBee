@@ -73,3 +73,6 @@ vgcore.*
 *.tmp
 *.temp
 .cache/
+
+
+BRAINDUMP.md

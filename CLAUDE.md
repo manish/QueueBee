@@ -14,3 +14,17 @@
     - React components
     - TypeScript interfaces
   - Use grep only for simple text searches in non-code files
+
+
+# C++ Coding requirements
+
+- Use lowercase_snake for files:
+   message.h / message.cpp
+   topic_queue.h / topic_queue.cpp
+   consumer_manager.h / consumer_manager.cpp
+
+- Use CamelCase for class names:
+  // File: message_queue.h
+  class MessageQueue {  // CamelCase class
+      // ...
+  };
