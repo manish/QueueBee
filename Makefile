@@ -1,6 +1,6 @@
 # Simple Makefile for QueueBee
 CXX = g++
-CXXFLAGS = -std=c++17 -Wall -Wextra -Wpedantic -pthread
+CXXFLAGS = -std=c++20 -Wall -Wextra -Wpedantic -pthread
 CXXFLAGS_DEBUG = -g -O0
 CXXFLAGS_RELEASE = -O3
 

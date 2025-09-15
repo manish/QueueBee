@@ -20,7 +20,7 @@ void print_usage(const char* program_name) {
 
 void print_version() {
     std::cout << "QueueBee version 0.1.0\n";
-    std::cout << "Built with C++17\n";
+    std::cout << "Built with C++20\n";
 }
 
 int main(int argc, char* argv[]) {
