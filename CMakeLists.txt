@@ -22,6 +22,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 # Source files
 set(SOURCES
     src/main.cpp
+    src/server.cpp
 )
 
 # Create executable
